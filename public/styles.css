@@ -1,0 +1,86 @@
+body{
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      color: #212122;
+    font-family: 'Made Tommy Soft Regular', sans-serif;
+}
+.announcement-bar {
+    background-color: yellow; 
+    margin: 0%;
+    padding: 14px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.row {
+    font:30px !important;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Adjust as needed */
+    padding: 10px;
+  }
+  
+  .left-nav {
+    
+    align-items: center; /* Distribute available space equally among left and right divisions */
+  }
+
+   li {
+    
+    display: inline-block;
+    margin-right: 10px; /* Add spacing between list items, adjust as needed */
+  }
+  nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Set the font size, adjust as needed */
+    font-weight: bold; /* Set the font weight, adjust as needed */
+    font-family: 'Made Tommy Soft Regular', sans-serif;
+    
+  }
+  nav-menu a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }
+  .right-nav{
+    display: inline;
+    align-items: flex-end;
+  }
+  
+  .center-logo {
+    flex: 0; /* Do not grow, maintain its size based on content */
+    margin: 0 20px; /* Add some spacing around the logo, adjust as needed */
+  }
+  
+  
+
+  .carousel-caption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-top: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    text-shadow: 2px 2px 2px black; /* Add a text shadow for better visibility */
+  }
+/* 
+  /* Text overlay on the left for odd-numbered slides
+  .carousel-caption.left {
+    left: 0;
+    right: auto;
+  }
+  
+
+  /* Text overlay on the right for even-numbered slides */
+  /* .carousel-caption.right {
+    right: 0;
+    left: auto;
+  } */ */ */
+
